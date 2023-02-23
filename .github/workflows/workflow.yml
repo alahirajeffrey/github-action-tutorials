@@ -2,8 +2,7 @@ name: hello-world-action
 
 on:
   push:
-    branches:
-      - main
+    branches: [master]
 
 jobs:
   print-hello-world:
