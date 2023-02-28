@@ -5,10 +5,26 @@ const {
   multiplication,
 } = require("../src/index");
 
-describe("Addition", () => {});
+describe("Addition", () => {
+  test("addition of 2 + 2 should equal 4", () => {
+    expect(addition(2, 2)).toBe(4);
+  });
+});
 
-describe("Subtraction", () => {});
+describe("Subtraction", () => {
+  test("subtraction of 2 - 1 should equal 1", () => {
+    expect(subtraction(2, 1)).toBe(1);
+  });
+});
 
-describe("Division", () => {});
+describe("Division", () => {
+  test("division of 2 / 2 should equal 1", () => {
+    expect(division(2, 2)).toBe(1);
+  });
+});
 
-describe("Multiplication", () => {});
+describe("Multiplication", () => {
+  test("multiplication of 2 * 2 should equal 4", () => {
+    expect(multiplication(2, 2)).toBe(4);
+  });
+});
