@@ -1,1 +1,5 @@
 # github-action-tutorials
+
+This repo contains the code to my first and second tutorial posts on github actions.
+
+Link to first post [here](https://dev.to/alahirajeffrey/understanding-github-actions-an-introduction-15g6)
